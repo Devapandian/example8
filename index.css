@@ -1,0 +1,98 @@
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 40px;
+    width: 1100px;
+    height: 545px;
+    gap: 100px;
+    box-sizing: border-box;
+    padding-left: 280px;
+
+
+}
+
+.group {
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: center;
+    gap: 450px;
+    border: 2px solid #F0F0F0;
+    border-radius: 20px;
+}
+
+.content1 {
+    border: 2px solid #F0F0F0;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer {
+    text-align: center;
+    justify-content: center;
+
+}
+
+.footer {
+    justify-content: center;
+    text-align: center;
+    grid-template-columns: auto;
+}
+
+.body {
+    background-color: White - 1;
+}
+
+#myButton {
+    border: none;
+    background-color: inherit;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .content {
+        float: none;
+        width: 100%;
+        padding: 1%;
+        background-color: #FFFFFF;
+        flex-direction: column;
+        border: 2px solid #F0F0F0;
+
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .content1 {
+        float: none;
+        width: 100%;
+        padding: 1%;
+        background-color: #FFFFFF;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .group {
+        float: none;
+        width: 100%;
+        padding: 1%;
+        background-color: #FFFFFF;
+        border: 2px solid #F0F0F0;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .footer {
+        display: none;
+    }
+}
